@@ -1,2 +1,2 @@
 # basicPython
-basic python projects
+basic python excersises found in textbooks or online.
