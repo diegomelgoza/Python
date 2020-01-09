@@ -1,13 +1,16 @@
-def get_formatted_name(first_name, last_name, middle_name=''):
+def get_formatted_name(first_name, last_name):
 	"""Return a full name, neatly formatted."""
-	if middle_name:
-		full_name = first_name + ' ' + middle_name + ' ' + last_name
-	else:
-		full_name = first_name + ' ' + last_name
+	full_name = first_name + ' ' + last_name
 	return full_name.title()
 	
-musician = get_formatted_name('jimi', 'hendrix')
-print(musician)
+print("Enter 'q' at any time to quit.")
+while True:
+ 	first = input("\nPlease give me a first name: ")
+ 	if first == 'q':
+ 		break
+ 	last = input("Please give me a last name: ")
+ 	if last == 'q':
+ 		break
 
-musician = get_formatted_name('kim', 'hix', 'lee')
-print(musician)
+formatted_name = get_formatted_name(first, last)
+print("\tNeatly formatted name: " + formatted_name + '.')
