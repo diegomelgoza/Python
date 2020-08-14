@@ -11,4 +11,7 @@ Here I'll be posting smaller python projects that I've found in textbooks or onl
 # Greet User
  - This program uses json. There are three different functions in this program. The main function, greet_user, will check to see if this
    is a returning user. If not we ask for their username and store it.
-
+   
+ # Fizz Buzz
+- A program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples 
+  of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
