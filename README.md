@@ -1,5 +1,5 @@
 # Python
-Here I'll be posting smaller python projects that I've found in textbooks or online.
+Here I'll be posting small python code that I've found in textbooks or online.
 
 # Dice Roller 
 - This program asks the user what type of dice they want to roll and then outputs the result.
